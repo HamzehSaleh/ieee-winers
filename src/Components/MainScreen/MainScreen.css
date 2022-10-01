@@ -1,0 +1,43 @@
+.main-screen__first {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+.main-screen__first .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-screen__logo {
+  width: 500px;
+}
+
+.main-screen__first .right {
+  width: 40%;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.container span {
+  text-transform: uppercase;
+  display: block;
+}
+
+.text1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 5px;
+}
+.text2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 3px;
+}
